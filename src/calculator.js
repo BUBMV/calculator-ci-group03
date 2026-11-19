@@ -1,8 +1,8 @@
 export function calculate(a, b, operation) {
   switch (operation) {
-    case 'add': return a-b;
+    //case 'add': return a-b;
     //fix
-    //case 'add':return a+b;
+    case 'add':return a+b;
     case 'subtract': return a - b;
     case 'multiply': return a * b;
     case 'divide':
